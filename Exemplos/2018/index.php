@@ -14,11 +14,16 @@ $rodrigo =
 //$rodrigo->setRga("123456");
 echo "<br />".$rodrigo->solicitarMatricula();
 	
-	
-	
-	
 	echo "<br />".$rodrigo->getRga();
 	
+	//Aluno->nome="Jivago";
+	//Aluno->solicitarMatricula();
+	
+	echo "<br />".Aluno::notificarDirecao();
+	Aluno::$modificador="ASDFG";
+	
+	$jorge->endereco = "VILA A";
+	echo "<br /> ".$jorge->endereco;
 	
 
 ?>
