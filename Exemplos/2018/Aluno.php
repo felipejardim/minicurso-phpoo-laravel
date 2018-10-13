@@ -36,6 +36,14 @@
 			return "Direção foi notificada!";
 		}
 		
+		//sobrescrita do método da classe pai
+		//a sobrescrita é utilizada para tornar um método da classe pai mais específico
+		public function abrirProcesso($destino) {
+			return "Processo do aluno "
+			.$this->rga
+			." encaminhado para ".$destino;
+		}			
+		
 		
 	}
 

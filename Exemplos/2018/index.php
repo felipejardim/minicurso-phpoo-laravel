@@ -25,5 +25,7 @@ echo "<br />".$rodrigo->solicitarMatricula();
 	$jorge->endereco = "VILA A";
 	echo "<br /> ".$jorge->endereco;
 	
+	echo "<br /> ".$jorge->abrirProcesso("Reitoria");
+	
 
 ?>
