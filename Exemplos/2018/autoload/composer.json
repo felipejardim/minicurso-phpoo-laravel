@@ -1,0 +1,16 @@
+{
+  "name": "Jorge/Minicurso",
+  "description": "Minicurso de PHP OO",
+  "authors": [
+    {
+      "name": "Jorge Lauro Campos Rodrigues",
+      "email": "jorgerodrigues9@outlook.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Jorge\\": "Jorge"
+    }
+  }
+}
